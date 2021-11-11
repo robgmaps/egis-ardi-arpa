@@ -1,0 +1,80 @@
+Field,Source,Notes
+GeoID,US Census Bureau,Census Tract FIPS code
+Supervisor District,eGIS,Board of Supervisors District
+SPA,eGIS,Service Planning Area
+CSA,eGIS,Countywide Statistical Area (Place Name)
+COVID Need Index Tier,eGIS/Multiple,COVID Recovery Index ranging Highest to Lowest (Quintiles); Developed by eGIS in consultation with Advancement Project
+HUD QCT,HUD,HUD Qualified Census Tracts
+Median Household Income,Census ACS 5 year 2015-2019 Table S1901,s1901_c01_012e
+Income Above/Below LAC Median,Census ACS 5 year 2015-2019 Table S1901,"s1901_c01_012e; LAC Median Household Income = $68,044 according to https://www.census.gov/quickfacts/losangelescountycalifornia"
+Median Income <60% AMI,Census ACS 5 year 2015-2019 Table S1901; HCD,"2021 AMI = $80,000 for family of 4 according to https://www.hcd.ca.gov/grants-funding/income-limits/state-and-federal-income-limits/docs/income-limits-2021.pdf"
+Median Income < AMI,Census ACS 5 year 2015-2019 Table S1901; HCD,"2021 AMI = $80,000 for family of 4 according to https://www.hcd.ca.gov/grants-funding/income-limits/state-and-federal-income-limits/docs/income-limits-2021.pdf"
+HCD Household Income Threshold,Census ACS 5 year 2015-2019 Table S1901; HCD,Family of 4 income thresholds from https://www.hcd.ca.gov/grants-funding/income-limits/state-and-federal-income-limits/docs/income-limits-2021.pdf
+Average Household Size,Census ACS 5 year 2015-2019 Table S1101,s1101_c01_002e
+DCBA Certified Community Businesses,DCBA,"Extract from 8/2021 - Los Angeles County DCBA Community Business Enterprise data for businesses who are certified through DCBA as women-owned, minority-owned, disabled-owned, or disabled veteran-owned"
+CalFresh Cases,DPSS,"CalFresh case count aggregated to census tract, from LA County DPSS. Data from the month of April, 2021"
+CalFresh Cases per 100 Households,DPSS; Census ACS 5 year 2015-2019 Table S1101,CalFresh case count per 100 households in census tract (s1101_c01_001e)
+High Concentrated Disadvantage,AMCHP,Concentrated Disadvantage Index (CDI) as defined by the Life Course Indicator Tool (LC_06) - www.amchp.org/programsandtopics/data-assessment/Pages/LifeCourseIndicators.aspx
+HPI Need Tier,Public Health Alliance of Southern California,"California Healthy Places Index (HPI), dated April 24, 2019"
+SVI Need Tier,CDC,2018 Social Vulnerability Index (SVI)
+Total Population,Census ACS 5 year 2015-2019 Table DP05,dp05_0070e
+Individuals Below FPL,Census ACS 5 year 2015-2019 Table S1701,s1701_c02_001e
+Individuals Below 200% FPL,Census ACS 5 year 2015-2019 Table S1701,s1701_c01_042e
+% Below FPL,Census ACS 5 year 2015-2019 Table S1701,s1701_c03_001e
+% Below 200% FPL,Census ACS 5 year 2015-2019 Table S1701,s1701_c01_042e / s1701_c01_001e
+Hispanic or Latino,Census ACS 5 year 2015-2019 Table DP05,dp05_0071e
+Non-Hispanic Black,Census ACS 5 year 2015-2019 Table DP05,dp05_0078e
+Non-Hispanic Asian,Census ACS 5 year 2015-2019 Table DP05,dp05_0080e
+American Indian and Alaska Native,Census ACS 5 year 2015-2019 Table DP05,dp05_0066e
+Native Hawaiian and Pacific Islander,Census ACS 5 year 2015-2019 Table DP05,dp05_0068e
+Non-Hispanic White,Census ACS 5 year 2015-2019 Table DP05,dp05_0077e
+Non-Hispanic Other Race,Census ACS 5 year 2015-2019 Table DP05,dp05_0082e
+Non-Hispanic Two or More Races,Census ACS 5 year 2015-2019 Table DP05,dp05_0083e
+% Hispanic or Latino,Census ACS 5 year 2015-2019 Table DP05,dp05_0071e / dp05_0070e
+% Non-Hispanic Black,Census ACS 5 year 2015-2019 Table DP05,dp05_0078e / dp05_0070e
+% Non-Hispanic Asian,Census ACS 5 year 2015-2019 Table DP05,dp05_0080e / dp05_0070e
+% American Indian and Alaska Native,Census ACS 5 year 2015-2019 Table DP05,dp05_0066e / dp05_0063e
+% Native Hawaiian and Pacific Islander,Census ACS 5 year 2015-2019 Table DP05,dp05_0068e / dp05_0063e
+% Non-Hispanic White,Census ACS 5 year 2015-2019 Table DP05,dp05_0077e / dp05_0070e
+% Non-Hispanic Other Race,Census ACS 5 year 2015-2019 Table DP05,dp05_0082e / dp05_0070e
+% Non-Hispanic Two or More Races,Census ACS 5 year 2015-2019 Table DP05,dp05_0083e / dp05_0070e
+Age: Under 5 years,Census ACS 5 year 2015-2019 Table DP05,dp05_0005e
+Age: 5-9 years,Census ACS 5 year 2015-2019 Table DP05,dp05_0006e
+Age: 10-14 years,Census ACS 5 year 2015-2019 Table DP05,dp05_0007e
+Age: 15-19 years,Census ACS 5 year 2015-2019 Table DP05,dp05_0008e
+Age: 20-24 years,Census ACS 5 year 2015-2019 Table DP05,dp05_0009e
+Age: 25-34 years,Census ACS 5 year 2015-2019 Table DP05,dp05_0010e
+Age: 35-44 years,Census ACS 5 year 2015-2019 Table DP05,dp05_0011e
+Age: 45-54 years,Census ACS 5 year 2015-2019 Table DP05,dp05_0012e
+Age: 55-64 years,Census ACS 5 year 2015-2019 Table DP05,dp05_0013e + dp05_0014e
+Age: 65 years and Over,Census ACS 5 year 2015-2019 Table DP05,dp05_0024e
+% Age: Under 5 years,Census ACS 5 year 2015-2019 Table DP05,dp05_0005e / dp05_0001e
+% Age: 5-9 years,Census ACS 5 year 2015-2019 Table DP05,dp05_0006e / dp05_0001e
+% Age: 10-14 years,Census ACS 5 year 2015-2019 Table DP05,dp05_0007e / dp05_0001e
+% Age: 15-19 years,Census ACS 5 year 2015-2019 Table DP05,dp05_0008e / dp05_0001e
+% Age: 20-24 years,Census ACS 5 year 2015-2019 Table DP05,dp05_0009e / dp05_0001e
+% Age: 25-34 years,Census ACS 5 year 2015-2019 Table DP05,dp05_0010e / dp05_0001e
+% Age: 35-44 years,Census ACS 5 year 2015-2019 Table DP05,dp05_0011e / dp05_0001e
+% Age: 45-54 years,Census ACS 5 year 2015-2019 Table DP05,dp05_0012e / dp05_0001e
+% Age: 55-64 years,Census ACS 5 year 2015-2019 Table DP05,(dp05_0013e + dp05_0014e) / dp05_0001e
+% Age: 65 years and Over,Census ACS 5 year 2015-2019 Table DP05,dp05_0024e / dp05_0001e
+Gender: Male,Census ACS 5 year 2015-2019 Table DP05,dp05_0002e
+Gender: Female,Census ACS 5 year 2015-2019 Table DP05,dp05_0003e
+% Gender: Male,Census ACS 5 year 2015-2019 Table DP05,dp05_0002e / dp05_0001e
+% Gender: Female,Census ACS 5 year 2015-2019 Table DP05,dp05_0003e / dp05_0001e
+Unemployed Population,Census ACS 5 year 2015-2019 Table DP03,dp03_0005e
+% Unemployed Population,Census ACS 5 year 2015-2019 Table DP03,dp03_0005e / dp03_0003e
+Education: Less than HS Graduate,Census ACS 5 year 2015-2019 Table S1501,s1501_c01_007e + s1501_c01_008e
+Education: HS Graduate or Higher,Census ACS 5 year 2015-2019 Table S1501,s1501_c01_014e
+Education: Bachelor's Degree or Higher,Census ACS 5 year 2015-2019 Table S1501,s1501_c01_015e
+% Education: Less than HS Graduate,Census ACS 5 year 2015-2019 Table S1501,(s1501_c01_007e + s1501_c01_008e) / s1501_c01_006e
+% Education: HS Graduate or Higher,Census ACS 5 year 2015-2019 Table S1501,s1501_c01_014e / s1501_c01_006e
+% Education: Bachelor's Degree or Higher,Census ACS 5 year 2015-2019 Table S1501,s1501_c01_015e / s1501_c01_006e
+Owner-Occupied Housing Units,Census ACS 5 year 2015-2019 Table DP04,dp04_0046e
+Renter-Occupied Housing Units,Census ACS 5 year 2015-2019 Table DP04,dp04_0047e
+% Owner-Occupied Housing Units,Census ACS 5 year 2015-2019 Table DP04,dp04_0046e / dp04_0045e
+% Renter-Occupied Housing Units,Census ACS 5 year 2015-2019 Table DP04,dp04_0047e / dp04_0045e
+Households without Internet,Census ACS 5 year 2015-2019 Table S2801,s2801_c01_019e
+Limited English-Speaking Households,Census ACS 5 year 2015-2019 Table S1602,s1602_c03_001e
+% Households without Internet,Census ACS 5 year 2015-2019 Table S2801,s2801_c01_019e / s2801_c01_001e
+% Limited English-Speaking Households,Census ACS 5 year 2015-2019 Table S1602,s1602_c03_001e / s1602_c01_001e
