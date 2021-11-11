@@ -137,4 +137,5 @@ reports/*
 logs/**/*
 util/credentials.py
 data/department_files/*
+!data/department_files/*.md
 .bat
